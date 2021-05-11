@@ -1,0 +1,96 @@
+<html>
+<head></head>
+<body>
+  <h1>Student</h1>
+<form action="insert.php" method="POST">
+
+<table>
+<tr>
+<td>Roll no</td><td><input type="text" name="rollno"></td>
+</tr>
+<tr>
+<td>Name</td><td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>DOB</td><td><input type="date" name="date"></td>
+</tr>
+<tr>
+<td>Contact</td><td><input type="text" name="phone"></td>
+</tr>
+<tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
+
+</table>
+</form>
+<h1>Faculty</h1>
+<form action="insert_into_faculty.php" method="POST">
+<table>
+<tr>
+<td>Faculty ID</td><td><input type="text" name="fid"></td>
+</tr>
+<tr>
+<td>Faculty Name</td><td><input type="text" name="fname"></td>
+</tr>
+<tr>
+<td>Contact</td><td><input type="text" name="fphone"></td>
+</tr>
+<tr>
+<td>Email</td><td><input type="email" name="femail"></td>
+</tr>
+<tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
+</form>
+
+
+</table>
+</form>
+<h1>Courses</h1>
+<form action="insert_into_courses.php" method="POST">
+<table>
+<tr>
+<td>CourseId</td><td><input type="text" name="CourseId"></td>
+</tr>
+<tr>
+<td>CourseName</td><td><input type="text" name="CourseName"></td>
+</tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
+</form>
+</table>
+
+
+
+</table>
+</form>
+<h1> Add Course to Student</h1>
+<form action="add_course_to_student.php" method="POST">
+<table>
+<tr>
+<td>Student Roll number</td><td><input type="text" name="StudentId"></td>
+</tr>
+<tr>
+<td>CourseId</td><td><input type="text" name="CourseId"></td>
+</tr>
+<tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
+</form>
+</table>
+
+<h1> Add Course to Faculty</h1>
+<form action="add_course_to_faculty.php" method="POST">
+<table>
+<tr>
+<td>Faculty id</td><td><input type="text" name="FacultyId"></td>
+</tr>
+<tr>
+<td>CourseId</td><td><input type="text" name="CourseId"></td>
+</tr>
+<tr>
+<td></td><td><button type="submit">submit</button></td>
+</tr>
+</form>
+</table>
+</body>
